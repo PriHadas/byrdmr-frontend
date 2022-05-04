@@ -1,14 +1,13 @@
+import { ThemeProvider } from "styled-components";
+import Home from "../pages/Home";
+import { theme } from "./styles/theme";
 
 function App() {
   return (
-    <div >
+    <ThemeProvider theme={theme}>
+       <Home/>
+    </ThemeProvider> 
 
-        <h1>
-    
-          Hello World
-        </h1>
-
-    </div>
   );
 }
 

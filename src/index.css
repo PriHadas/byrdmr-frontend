@@ -1,13 +1,75 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  @font-face {
+    font-family: "ArchivoBold";
+    src: local("ArchivoBold"),
+      url("./assets/fonts/Archivo-Bold.ttf") format("truetype");
+    font-weight: bold;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  }
+
+    @font-face {
+
+    font-family: "ArchivoBoldItalic";
+    src: local("ArchivoBoldItalic"),
+      url("./assets/fonts/Archivo-BoldItalic.ttf") format("truetype");
+    font-weight: italic;
+
+  }
+
+      @font-face {
+
+    font-family: "ArchivoItalic";
+    src: local("ArchivoItalic"),
+      url("./assets/fonts/Archivo-Italic.ttf") format("truetype");
+    font-weight: italic;
+
+  }
+
+      @font-face {
+
+    font-family: "ArchivoMedium";
+    src: local("ArchivoMedium"),
+      url("./assets/fonts/Archivo-Medium.ttf") format("truetype");
+    font-weight: italic;
+
+  }
+      @font-face {
+
+    font-family: "ArchivoMediumItalic";
+    src: local("ArchivoMediumItalic"),
+      url("./assets/fonts/Archivo-MediumItalic.ttf") format("truetype");
+    font-weight: italic;
+
+  }
+
+    @font-face {
+
+    font-family: "ArchivoRegular";
+    src: local("ArchivoRegular"),
+      url("./assets/fonts/Archivo-Regular.ttf") format("truetype");
+    font-weight: italic;
+
+  }
+    @font-face {
+
+    font-family: "ArchivoSemiBold";
+    src: local("ArchivoSemiBold"),
+      url("./assets/fonts/Archivo-SemiBold.ttf") format("truetype");
+    font-weight: italic;
+
+  }
+    @font-face {
+
+    font-family: "ArchivoSemiBoldItalic";
+    src: local("ArchivoSemiBoldItalic"),
+      url("./assets/fonts/Archivo-SemiBoldItalic.ttf") format("truetype");
+    font-weight: italic;
+
+  }
+
+  *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+ 
