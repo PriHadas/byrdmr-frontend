@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from '../src/components/App';
+import App from './App';
 import "./assets/fonts/Archivo-Bold.ttf";
 import "./assets/fonts/Archivo-BoldItalic.ttf";
 import "./assets/fonts/Archivo-Italic.ttf";

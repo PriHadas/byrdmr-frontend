@@ -6,4 +6,5 @@ export const theme = {
     isabelline: "#f4f1ed",
     paleSilver: "#c8c2bd",
   },
+  mobileSize: "768",
 };
