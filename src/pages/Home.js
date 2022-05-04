@@ -9,7 +9,7 @@ import CameraSection from "../components/sections/CameraSection";
 
 const Home = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-    const [pageWidth, setPageWidth] = useState(window.innerWidth);
+  const [pageWidth, setPageWidth] = useState(window.innerWidth);
 
  useEffect(() => {
    setPageWidth(window.innerWidth);
@@ -21,7 +21,7 @@ const Home = () => {
         <Menu openMenu={setMenuOpen} />
       ) : (
         <div>
-          {pageWidth > theme.mobile ? (
+          {pageWidth > theme.mobileSize ? (
             <NavBar openMenu={setMenuOpen} />
           ) : (
             <NavBarMobile openMenu={setMenuOpen} />

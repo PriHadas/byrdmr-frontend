@@ -42,7 +42,7 @@ export const Row = styled.div`
   display: flex;
   justify-content: space-around;
 
-  @media (max-width: ${({ theme }) => theme.mobile}) {
+  @media (max-width: ${({ theme }) => `${theme.mobileSize}px` }) {
     flex-direction: ${({ mobile }) => mobile};
   }
 `;
@@ -53,7 +53,7 @@ export const StyledProductDetails = styled.section`
   justify-content: space-around;
   align-items: center;
 
-  @media (max-width: ${({ theme }) => theme.mobile}) {
+  @media (max-width: ${({ theme }) => `${theme.mobileSize}px`}) {
     flex-direction: column;
   }
 `;
