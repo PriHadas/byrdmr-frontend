@@ -5,6 +5,7 @@ import Menu from "../components/sections/Menu";
 import { useEffect, useState } from "react";
 import {theme} from "../components/styles/theme"
 import NavBarMobile from "../components/NavBarMobile";
+import CameraSection from "../components/sections/CameraSection";
 
 const Home = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -26,6 +27,7 @@ const Home = () => {
             <NavBarMobile openMenu={setMenuOpen} />
           )}
           <PresentationSeaction />
+          <CameraSection/>
           <Contact />
         </div>
       )}

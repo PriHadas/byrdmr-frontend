@@ -7,6 +7,15 @@ export const StyledHomePresentation = styled.section`
   justify-content: center;
 `;
 
+export const ProductPresentation = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+`;
+
 
 export const StyledCamera = styled.section`
   background-color: #040404;

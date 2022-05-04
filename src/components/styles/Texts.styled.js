@@ -22,3 +22,30 @@ export const PaleSilverText = styled.p`
     font-size: ${({ mobileFontSize }) => mobileFontSize + "px"};
   }
 `;
+
+
+export const StyledTextDescription = styled.div`
+  font-family: ArchivoMedium;
+  text-align: start;
+
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    order: ${({ orderMobile }) => orderMobile};
+  }
+`;
+
+export const Title = styled.h2`
+  font-family: ArchivoBold;
+`;
+
+
+export const Description = styled.div`
+  font-family: ArchivoRegular;
+`;
+
+export const Rectangle = styled.span`
+  background-color: #ec5a22;
+  display: block;
+  width: 50px;
+  height: 3px;
+  margin-bottom: 5px;
+`;
