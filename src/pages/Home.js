@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import {theme} from "../components/styles/theme"
 import NavBarMobile from "../components/NavBarMobile";
 import CameraSection from "../components/sections/CameraSection";
+import RemoteSection from "../components/sections/RemoteSection";
 
 const Home = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -28,6 +29,7 @@ const Home = () => {
           )}
           <PresentationSeaction />
           <CameraSection/>
+          <RemoteSection/>
           <Contact />
         </div>
       )}
