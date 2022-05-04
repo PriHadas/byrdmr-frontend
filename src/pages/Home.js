@@ -7,6 +7,7 @@ import {theme} from "../components/styles/theme"
 import NavBarMobile from "../components/NavBarMobile";
 import CameraSection from "../components/sections/CameraSection";
 import RemoteSection from "../components/sections/RemoteSection";
+import { ProductDetailsSeaction } from "../components/sections/ProductDetailsSeaction";
 
 const Home = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -28,6 +29,7 @@ const Home = () => {
             <NavBarMobile openMenu={setMenuOpen} />
           )}
           <PresentationSeaction />
+          <ProductDetailsSeaction/>
           <CameraSection/>
           <RemoteSection/>
           <Contact />
