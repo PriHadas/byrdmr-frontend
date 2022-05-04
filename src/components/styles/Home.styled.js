@@ -58,3 +58,50 @@ export const StyledProductDetails = styled.section`
   }
 `;
 
+
+export const StyledScrollbar = styled.div`
+  position: fixed;
+  left: 10;
+  right: 0;
+  top: 50%;
+
+  display: ${({ sectionActive, totalSections }) => {
+    return sectionActive === 0 || sectionActive === totalSections - 1
+      ? "none"
+      : "block";
+  }};
+
+  span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background-color: ${({ theme }) => theme.colors.halloweenOrange};
+    border-radius: 6px;
+
+    transform: rotate(90deg);
+    margin: 30px;
+  }
+
+  span:nth-child(1) {
+    background-color: ${({ sectionActive, theme }) =>
+      sectionActive == 1
+        ? theme.colors.lightSilver
+        : theme.colors.halloweenOrange}};
+  }
+  span:nth-child(2) {
+    background-color: ${({ sectionActive, theme }) =>
+      sectionActive == 2
+        ? theme.colors.lightSilver
+        : theme.colors.halloweenOrange}
+  }
+  span:nth-child(3) {
+    background-color: ${({ sectionActive, theme }) =>
+      sectionActive == 3
+        ? theme.colors.lightSilver
+        : theme.colors.halloweenOrange}
+        
+  }
+`
