@@ -8,6 +8,9 @@ export const ColumCenter = styled.div`
   left: 0;
   right: 0;
 
+  @media (max-width: ${({ theme }) => theme.mobileSize + 'px'}) {
+    display: ${({ mobile }) => (mobile == "off" ? "none" : "flex")};
+  }
 `;
 
 export const ContentCenter = styled.div`
